@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/Panton-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button {
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #38BCEA;
+  color: white;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.tel {
+  color: #9b2020;
+  border: 0;
+}
+
+.controltitle {
+  padding-left: 100px;
+  margin-top: 135px;
+  background-color: #FBFBFB;
+}
+
+.title {
+  padding-top: 62px;
+  position: relative;
+}
+
+.subtitle {
+  width: 50%;
+  padding-top: 35px;
+  padding-bottom: 38px;
+}
+
+.personal {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  gap: 5%;
+  padding-bottom: 33px;
+}
+
+.checkbox {
+  padding-bottom: 63px;
+}
+
+.title-img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 600px;
+  height: 600px;
+}
+
+h1 {
+  font-family: "Panton";
+  font-style: normal;
+  font-size: 50px;
+}
+
+.imgclinic {
+  bottom: 5px;
+  right: 0px;
+  width: 700px;
+  height: 500px;
+}
+
+.controlcontriner {
+  padding-left: 100px;
+  margin-top: 135px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.controlcontriner__content {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.content__servicescontainer__servbutton {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+.content__logocontainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+}
+
+.content__bastitle {
+  font-family: "Panton";
+  font-size: 50px;
+}
+
+.content__text {
+  font-size: 24px;
+}
+
+.content__text,
+.content__text,
+.content__text {
+  font-size: 20px;
+}
+
+.buttonA,
+.buttonB,
+.buttonC,
+.buttonD,
+.buttonE {
+  text-decoration: none;
+  background-color: #F9F9F9;
+  color: rgb(5, 5, 5);
+  padding: 10px 15px;
+}/*# sourceMappingURL=style.css.map */
